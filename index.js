@@ -1,7 +1,7 @@
 var lineN = 0;
 function takeANumber(line){
   line.push(++lineN);
-  return 'Welcome, your number is '+ line.length +' your unique # is ' + (line.length -1); 
+  return 'Welcome, your number is '+ line.length +' your unique # is ' + (line.length - 1); 
 }
 function nowServing(katzDeliLine){
   if(katzDeliLine[0] === undefined) return 'There is nobody waiting to be served!';
