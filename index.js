@@ -13,7 +13,7 @@ function currentLine(line){
   for(let i = 0; i < line.length; ++i){
   result +=i+1;
   result +='. ' +line[i];
-  if(i === line.length-1);
+  if(i !== line.length-1);
   else result+= ', '
   }
   return result;
